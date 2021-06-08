@@ -1,0 +1,83 @@
+@media screen  and (max-width:1000px){ 
+  
+    nav{
+        
+        flex-direction: column;
+
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul {
+        justify-content: center;
+        height: 34px;
+    }
+    .search {
+        justify-content: center;
+    }
+    .search input {
+        margin: 12px 16px;
+    }
+
+    .slider {
+        height: 100vh;
+    }
+    .card-items {
+        overflow: scroll;
+    }
+
+    .card-images{
+        height: 40vh;
+        width: 50vw;     
+        transition: 0.2s all ease-in-out;
+
+    }
+    /* Anime information pages repsonsive css */
+    .show-description > p{
+        font-size: 24px;
+       }
+       
+       /* .summary > p{
+        font-size: 15px;
+        padding: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        } */
+    
+}
+@media screen  and (max-width:660px){ 
+    .card-images{
+        height: 40vh;
+        width: 60vw;     
+        transition: 0.2s all ease-in-out;
+
+    }
+
+
+    nav ul li {
+        list-style: none;
+        padding: 0 10px;
+ 
+    }
+
+ 
+    .slider {
+        height: 47vh;
+    }
+    
+    .slider img {
+       
+        width: 90vw;
+        height: 45vh;
+    }
+}
+
+@media screen  and (max-width:500px){ 
+    .card-images{
+        height: 40vh;
+        width: 80vw;     
+        transition: 0.2s all ease-in-out;
+
+    }
+}

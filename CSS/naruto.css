@@ -1,0 +1,104 @@
+.series {
+    display: flex;
+    max-width: 85vw;
+    margin: 36px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.summary > p{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Orelega One', cursive;
+    padding: 10px;
+}
+
+.series-img{
+    width: 25vw;
+    height: 80vh;
+}
+.show-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.info-card
+{
+    padding: 10px;
+}
+.show-description{
+    padding: 10px;
+}
+
+.title {
+    font-size: 67px;
+}
+.para {
+    font-size: 25px;
+
+}
+.year{
+    font-size: 40px;
+
+}
+
+
+.show-description > p{
+    font-size: 30px;
+    font-family: 'Orelega One', cursive !important;
+}
+
+
+@media screen  and (max-width:1000px){ 
+  
+    /* Anime information pages repsonsive css */
+.show-description > p{
+        font-size: 20px;
+ }
+     
+.series-img{
+        width: 35vw;
+        height: 80vh;
+    }
+
+    
+}
+
+@media screen  and (max-width:660px){ 
+   
+
+
+    .show-description > p{
+
+        font-size: 18px;
+       }
+    .summary > p {
+        font-size: 16px;
+    }
+          
+
+       .title {
+        font-size: 40px;
+    }
+       
+    .year {
+        font-size: 30px;
+    }
+
+       .series{
+           flex-direction: column;
+       }
+
+
+
+       .series-img{
+        width: 80vw;
+        height: 80vh;
+    }
+
+    
+    
+}
+
+

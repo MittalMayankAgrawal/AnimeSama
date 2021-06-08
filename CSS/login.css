@@ -1,0 +1,106 @@
+
+body{
+    background-image: url("/ANIME IMG/login.jpg");
+    background-repeat: no-repeat;
+    background-size:100vw 140vh;
+}
+.login-forum{    
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-size: 17px;
+    font-family: 'Orelega One', cursive;
+    border-radius: 20px;
+    border: 2px solid antiquewhite;
+
+    height: 266px;
+    width: 220px;
+    margin: 10% 40%;
+    padding: 26px;
+ 
+}
+
+.login-forum  input{
+    
+    font-size: 17px;
+    font-family: 'Mate SC', serif;
+    border:2px solid rgb(41, 39, 39);
+    border-radius: 12px;
+    /*  removing borders from the input elements*/
+    border-top-style:none;
+    border-right-style: none; 
+    border-left-style: none;
+    /* removing the outline from input elements */
+    outline: none;
+    
+}
+
+.login-btn{
+    
+    font-size: 16px;
+    font-family: 'Mate SC', serif;
+    padding: 3px 74px;
+    background: #001233;
+    color: rgb(236, 229, 229);
+    border: 2px solid rgb(243, 226, 226);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login {
+    min-height: calc(120vh - 58px - 12vh);
+     
+}
+
+/*responsive css */
+@media screen and (max-width:1000px){
+ 
+
+    body{
+        
+        background-size:100vw 150vh;
+    }
+     .login-forum{
+        margin: 12% 36%;
+        
+    
+    }
+
+}
+
+@media screen and (max-width:700px){
+    body {
+        background-size: 100vw 110vh;
+    }
+    .login-forum {
+        margin: 10% 30%;
+    }
+    .login {
+        min-height: calc(120vh - 58px - 39vh);
+         
+    }
+
+}
+
+@media screen and (max-width:500px){
+    .login-forum {
+        margin: 10% 18%;
+    }
+ 
+
+}
+
+@media screen and (max-width:360px){
+    .login-forum {
+        margin: 10% 12%;
+    }
+ 
+
+}
+
+
+
+
+
