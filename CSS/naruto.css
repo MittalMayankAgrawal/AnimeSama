@@ -6,9 +6,10 @@
 }
 
 .summary > p{
+    
     font-size: 25px;
     font-weight: 700;
-    font-family: 'Orelega One', cursive;
+    font-family: 'Lora', serif;
     padding: 10px;
 }
 
